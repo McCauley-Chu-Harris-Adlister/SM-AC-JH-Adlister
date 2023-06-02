@@ -52,7 +52,7 @@ public class UpdateProfileServlet extends HttpServlet {
 
 
 
-        resp.sendRedirect("/login");
+        resp.sendRedirect("/logout");
 
 //request to DAO
         //

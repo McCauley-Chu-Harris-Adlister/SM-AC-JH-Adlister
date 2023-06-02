@@ -10,10 +10,10 @@
 <html>
 <head>
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
+    <link rel="stylesheet" href="/CSS/main.css">
 
     <title class="container-head">Edit Ad</title>
     <style>
-        .container-head{
         .container-head{
             color: #262626;
             overflow: hidden;
@@ -40,13 +40,11 @@
                 border-color: #FF8D8D;
             }
         }
-
-        }
     </style>
 </head>
 <body>
 
-
+<div class="ads-container">
 <form action="/editAd" method="post">
 
 
@@ -61,7 +59,7 @@
 
     <input name="id" type="hidden" value="${singleAd.id}">
 </form>
-
+</div>
 
 </body>
 </html>

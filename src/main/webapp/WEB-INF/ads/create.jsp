@@ -22,35 +22,6 @@
                 <label for="description">Description</label>
                 <textarea id="description" name="description" class="form-control" type="text"></textarea>
             </div>
-            <div class="form-group">
-                <label for="category">Category</label>
-                <select name="category" id="category">
-                    <option>Art</option>
-                    <option>Automobiles</option>
-                    <option>Aviation</option>
-                    <option>Bicycles</option>
-                    <option>Boat</option>
-                    <option>CD/DVD/VHS</option>
-                    <option>Books & Magazines</option>
-                    <option>Cell Phones</option>
-                    <option>Clothing</option>
-                    <option>Collectibles</option>
-                    <option>Computers</option>
-                    <option>Electronics</option>
-                    <option>Farm & Garden</option>
-                    <option>Furniture</option>
-                    <option>Health & Beauty</option>
-                    <option>Heavy Equipment</option>
-                    <option>Jewelry</option>
-                    <option>Musical Instruments</option>
-                    <option>Pets</option>
-                    <option>Sporting Goods</option>
-                    <option>Tools</option>
-                    <option>Toys & Games</option>
-                    <option>Trailers</option>
-                    <option>Video Games</option>
-                </select>
-            </div>
             <fieldset>
                 <legend>Select applicable categories</legend>
                 <div>
@@ -96,10 +67,6 @@
                 <div>
                     <input name="Category" id="Computers" value="Computers" type="checkbox">
                     <label for="Computers">Computers</label>
-                </div>
-                <div>
-                    <input name="Category" id="Electronics" value="Electronics" type="checkbox">
-                    <label for="Electronics">Electronics</label>
                 </div>
                 <div>
                     <input name="Category" id="Farm & Garden" value="Farm & Garden" type="checkbox">

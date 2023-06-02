@@ -49,6 +49,7 @@ public class CreateAdServlet extends HttpServlet {
 
         //used to iterate the through the categories in the array
         for (String x : category){
+            System.out.println(x);
         Ad_Category adCategory = new Ad_Category(
                 num,
                 DaoFactory.getCategoriesDao().getCategoryId(x)
